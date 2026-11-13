@@ -330,7 +330,7 @@ body {
     box-shadow: 0 0 30px rgba(0, 140, 255, 0.12);
 }
 
-    sidebar {
+    .sidebar {
     width: 125px;
     min-width: 125px;
     flex-shrink: 0;
@@ -341,7 +341,7 @@ body {
     gap: 10px;
     box-sizing: border-box;
 }
-sidebar h2 {
+.sidebar h2 {
     color: white;
     font-size: 16px;
     letter-spacing: 1px;
@@ -362,12 +362,12 @@ sidebar h2 {
     text-align: center;
 }
 
-sidebar .nav-btn.active {
+.sidebar .nav-btn.active {
     background: #007bff;
     color: white;
 }
 
-dashboard-content {
+.dashboard-content {
     flex: 1;
     padding: 35px;
     color: white;
