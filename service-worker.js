@@ -1,5 +1,5 @@
 
-const CACHE_NAME = "moneyx-v1";
+const CACHE_NAME = "moneyx-v2";
 
 const FILES_TO_CACHE = [
     "./",
